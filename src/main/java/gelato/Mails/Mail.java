@@ -1,4 +1,4 @@
-package gelato;
+package gelato.Mails;
 
 public class Mail {
     private final String subject;

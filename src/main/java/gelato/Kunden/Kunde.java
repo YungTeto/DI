@@ -1,7 +1,10 @@
-package gelato;
+package gelato.Kunden;
 
+import java.sql.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Kunde {
 
@@ -9,6 +12,9 @@ public class Kunde {
     private final String name;
     private final String email;
     private LocalDate lastmail;
+
+
+
 
     public Kunde(long id, String name, String email, LocalDate lastmail) {
         this.id = id;
@@ -44,4 +50,7 @@ public class Kunde {
     public long getId() {
         return id;
     }
+
+
+
 }

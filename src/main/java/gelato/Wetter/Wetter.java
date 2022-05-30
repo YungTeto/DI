@@ -1,4 +1,4 @@
-package gelato;
+package gelato.Wetter;
 
 public class Wetter {
 
